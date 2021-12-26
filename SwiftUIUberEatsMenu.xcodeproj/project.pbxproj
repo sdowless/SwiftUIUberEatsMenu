@@ -11,6 +11,12 @@
 		23A43F6A2777D97100D53982 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A43F692777D97100D53982 /* ContentView.swift */; };
 		23A43F6C2777D97200D53982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A43F6B2777D97200D53982 /* Assets.xcassets */; };
 		23A43F6F2777D97200D53982 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A43F6E2777D97200D53982 /* Preview Assets.xcassets */; };
+		23A43F7C2777DD1400D53982 /* MenuBarOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A43F7B2777DD1400D53982 /* MenuBarOptions.swift */; };
+		23A43F7E2777DD6600D53982 /* MenuOptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A43F7D2777DD6600D53982 /* MenuOptionsList.swift */; };
+		23A43F802777E3C000D53982 /* MenuItemSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A43F7F2777E3C000D53982 /* MenuItemSection.swift */; };
+		23A43F822777E41E00D53982 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A43F812777E41E00D53982 /* FoodItem.swift */; };
+		23A43F902778114B00D53982 /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A43F8F2778114B00D53982 /* OffsetKey.swift */; };
+		23A43F922778115100D53982 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A43F912778115100D53982 /* OffsetModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		23A43F692777D97100D53982 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23A43F6B2777D97200D53982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23A43F6E2777D97200D53982 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23A43F7B2777DD1400D53982 /* MenuBarOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarOptions.swift; sourceTree = "<group>"; };
+		23A43F7D2777DD6600D53982 /* MenuOptionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionsList.swift; sourceTree = "<group>"; };
+		23A43F7F2777E3C000D53982 /* MenuItemSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemSection.swift; sourceTree = "<group>"; };
+		23A43F812777E41E00D53982 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		23A43F8F2778114B00D53982 /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
+		23A43F912778115100D53982 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				23A43F692777D97100D53982 /* ContentView.swift */,
 				23A43F6B2777D97200D53982 /* Assets.xcassets */,
 				23A43F6D2777D97200D53982 /* Preview Content */,
+				23A43F7B2777DD1400D53982 /* MenuBarOptions.swift */,
+				23A43F7D2777DD6600D53982 /* MenuOptionsList.swift */,
+				23A43F7F2777E3C000D53982 /* MenuItemSection.swift */,
+				23A43F812777E41E00D53982 /* FoodItem.swift */,
+				23A43F8F2778114B00D53982 /* OffsetKey.swift */,
+				23A43F912778115100D53982 /* OffsetModifier.swift */,
 			);
 			path = SwiftUIUberEatsMenu;
 			sourceTree = "<group>";
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A43F6A2777D97100D53982 /* ContentView.swift in Sources */,
+				23A43F7E2777DD6600D53982 /* MenuOptionsList.swift in Sources */,
 				23A43F682777D97100D53982 /* SwiftUIUberEatsMenuApp.swift in Sources */,
+				23A43F902778114B00D53982 /* OffsetKey.swift in Sources */,
+				23A43F802777E3C000D53982 /* MenuItemSection.swift in Sources */,
+				23A43F922778115100D53982 /* OffsetModifier.swift in Sources */,
+				23A43F822777E41E00D53982 /* FoodItem.swift in Sources */,
+				23A43F7C2777DD1400D53982 /* MenuBarOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
